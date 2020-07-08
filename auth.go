@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/shazow/ssh-chat/set"
-	"github.com/shazow/ssh-chat/sshd"
+	"github.com/pavelz/ssh-chat/set"
+	"github.com/pavelz/ssh-chat/sshd"
 	"golang.org/x/crypto/ssh"
 )
 

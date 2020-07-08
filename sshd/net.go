@@ -4,6 +4,7 @@ import (
 	"net"
 	"time"
 
+	"github.com/pavelz/ssh-chat/chain"
 	"github.com/shazow/rateio"
 	"golang.org/x/crypto/ssh"
 )
@@ -54,6 +55,7 @@ func (l *SSHListener) handleConn(conn net.Conn) (*Terminal, error) {
 func (l *SSHListener) Serve() {
 	defer l.Close()
 	for {
+		_ = chain.RegisterMessage("woo")
 		conn, err := l.Accept()
 
 		if err != nil {

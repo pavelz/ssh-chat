@@ -6,7 +6,7 @@ import (
 	"errors"
 	"net"
 
-	"github.com/shazow/ssh-chat/internal/sanitize"
+	"github.com/pavelz/ssh-chat/internal/sanitize"
 	"golang.org/x/crypto/ssh"
 )
 

@@ -4,10 +4,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/shazow/ssh-chat/chat/message"
-	"github.com/shazow/ssh-chat/internal/humantime"
-	"github.com/shazow/ssh-chat/internal/sanitize"
-	"github.com/shazow/ssh-chat/sshd"
+	"github.com/pavelz/ssh-chat/chat/message"
+	"github.com/pavelz/ssh-chat/internal/humantime"
+	"github.com/pavelz/ssh-chat/internal/sanitize"
+	"github.com/pavelz/ssh-chat/sshd"
 )
 
 // Identity is a container for everything that identifies a client.

@@ -17,10 +17,10 @@ import (
 	flags "github.com/jessevdk/go-flags"
 	"golang.org/x/crypto/ssh"
 
-	sshchat "github.com/shazow/ssh-chat"
-	"github.com/shazow/ssh-chat/chat"
-	"github.com/shazow/ssh-chat/chat/message"
-	"github.com/shazow/ssh-chat/sshd"
+	sshchat "github.com/pavelz/ssh-chat"
+	"github.com/pavelz/ssh-chat/chat"
+	"github.com/pavelz/ssh-chat/chat/message"
+	"github.com/pavelz/ssh-chat/sshd"
 
 	_ "net/http/pprof"
 )
@@ -46,9 +46,9 @@ const extraHelp = `There are hidden options and easter eggs in ssh-chat. The sou
 place to start looking. Some useful links:
 
 * Project Repository:
-  https://github.com/shazow/ssh-chat
+  https://github.com/pavelz/ssh-chat
 * Project Wiki FAQ:
-  https://github.com/shazow/ssh-chat/wiki/FAQ
+  https://github.com/pavelz/ssh-chat/wiki/FAQ
 `
 
 var logLevels = []log.Level{
